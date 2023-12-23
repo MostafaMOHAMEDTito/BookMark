@@ -1,0 +1,29 @@
+.one ,.two ,.tree {
+  width: 200px;
+  height: 200px;
+
+}
+.one {
+  background-color: #09c;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  z-index: 1;
+}
+.two {
+  background-color: brown;
+  position: absolute;
+  top: 120px;
+  left: 120px;
+  z-index: 999;
+}
+.tree {
+  background-color: green;
+  position: absolute;
+  top: 140px;
+  left: 140px;
+  z-index: 2;
+}
+
+
+
